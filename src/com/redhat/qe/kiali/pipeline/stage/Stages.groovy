@@ -23,5 +23,8 @@ class Stages {
            ]
         )
     }
+    static def executeShell(script, command) {
+        script.sh "${command}"
+    }
     
 }
